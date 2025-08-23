@@ -1,0 +1,16 @@
+{
+  "itemGroup.securitybackpack": "Example Mod Tab",
+  "block.securitybackpack.example_block": "Example Block",
+  "item.securitybackpack.example_item": "Example Item",
+
+  "securitybackpack.configuration.title": "Security Backpack Configs",
+  "securitybackpack.configuration.section.securitybackpack.common.toml": "Security Backpack Configs",
+  "securitybackpack.configuration.section.securitybackpack.common.toml.title": "Security Backpack Configs",
+  "securitybackpack.configuration.items": "Item List",
+  "securitybackpack.configuration.logDirtBlock": "Log Dirt Block",
+  "securitybackpack.configuration.magicNumberIntroduction": "Magic Number Text",
+  "securitybackpack.configuration.magicNumber": "Magic Number",
+
+  "menu.securitybackpack.security_case": "Security Case",
+  "gui.securitybackpack.open_case": "Security Case"
+}
