@@ -52,9 +52,10 @@ public class SecurityBackpackClient {
             // Approximate the vanilla inventory background position (176x166)
             int bgW = 176;
             int bgH = 166;
-            int buttonWidth = 70;
-            int x = (screen.width - bgW) / 2 - 22 - (int)(buttonWidth * 0.6f); // shift further left by ~60% of width
-            int y = (screen.height - bgH) / 2 + 20;
+            int buttonWidth = SecurityCaseClientConfig.BUTTON_WIDTH.get();
+            // Use client-configurable screen-space position to avoid conflicts with JEI/recipe book/UIs
+            int x = SecurityCaseClientConfig.BUTTON_X.get();
+            int y = SecurityCaseClientConfig.BUTTON_Y.get();
 
             Button openCase = Button.builder(Component.translatable("gui.securitybackpack.open_case"), b -> {
                 var conn = Minecraft.getInstance().getConnection();

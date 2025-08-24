@@ -94,6 +94,8 @@ public class SecurityBackpack {
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
         // Server-side config for Security Case (slot count)
         modContainer.registerConfig(ModConfig.Type.SERVER, SecurityCaseConfig.SPEC);
+        // Client-side config for Security Case button placement/size
+        modContainer.registerConfig(ModConfig.Type.CLIENT, SecurityCaseClientConfig.SPEC);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
